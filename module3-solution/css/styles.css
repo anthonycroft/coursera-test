@@ -50,6 +50,9 @@
   .navbar-nav li  { 
     background-color: #e1eae8;  
   }
+  .navbar-nav>li>a{
+    border: 1px solid #b3cbc4;
+  }
 }
   /* End Header */
 
@@ -91,9 +94,7 @@ div.sep {
 #nav-list a:hover {
   background: #a6a6a6;
 }
-.navbar-nav>li>a{
-  border: 1px solid #b3cbc4;
-}
+
  
 
 /* END HOME PAGE */
