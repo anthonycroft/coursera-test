@@ -85,11 +85,15 @@ div.sep {
 #nav-list a {
   color: #1f2e29;
   font-size: 17px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 /* change background on hover to a slightly darker color than default*/
 #nav-list a:hover {
   background: #a6a6a6;
 }
+.navbar-nav>li>a{
+  border: 1px solid #b3cbc4;
+}
+ 
 
 /* END HOME PAGE */
