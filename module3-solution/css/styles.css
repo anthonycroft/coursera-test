@@ -1,0 +1,95 @@
+/** HEADER **/
+#header-nav {
+  background-color: #53796e;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand h1 { /* Company name */
+  color: #1f2e29;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header {
+  margin: 20px 0 20px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Company name */
+    padding-top: 5px;
+    font-size: 25px;
+    overflow: hidden;
+  }
+    h2 { /* Company name */
+    font-size: 23px;
+    overflow: hidden;
+  }
+    h3 { /* Company name */
+    font-size: 20px;
+    overflow: hidden;
+  }
+}
+
+/********** Small devices Only :-)  **********/
+ @media (max-width: 767px) {
+  /* Header */
+  /* change background colour of nav-list when visible */
+  .navbar-nav li  { 
+    background-color: #e1eae8;  
+  }
+}
+  /* End Header */
+
+/* END HEADER */
+
+/* HOME PAGE */
+h2 {
+  font-weight: bold; 
+  margin: 30px 0 30px;
+}
+h3 {
+  font-weight: bold;
+  margin: 15px 0 15px;
+}
+p {
+  /* give P extra height so scroll-bars visible */
+  height: 500px;
+  overflow: hidden;
+}
+section {
+  padding: 0 10px 15px 0;
+}
+
+div.sep {
+  padding: 10px;
+  background-color: #c6d8d3;
+  position: relative;
+}
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: #1f2e29;
+  font-size: 17px;
+  font-weight: bold; 
+}
+/* change background on hover to a slightly darker color than default*/
+#nav-list a:hover {
+  background: #a6a6a6;
+}
+
+/* END HOME PAGE */
